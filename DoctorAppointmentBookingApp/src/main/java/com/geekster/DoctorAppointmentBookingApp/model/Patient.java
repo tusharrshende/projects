@@ -30,7 +30,7 @@ public class Patient {
     @Email
     private String patientEmail;
 
-    @Pattern(regexp = "^(?=.*[A-Za-z])(?=.*\\d)(?=.*[@#$!%])[A-Za-z\\d@#$!%]{8,}$\n")
+//    @Pattern(regexp = "^(?=.*[A-Za-z])(?=.*\\d)(?=.*[@#$!%])[A-Za-z\\d@#$!%]{8,}$\n")
     private String patientPassword;
 
     @Enumerated(value = EnumType.STRING)
