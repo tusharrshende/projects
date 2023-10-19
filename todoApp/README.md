@@ -2,13 +2,13 @@
 # Todo App
 
 
-**Frameworks and Language Used:**
+## **Frameworks and Language Used:**
 - Language: Java
 - Framework: Spring Boot
 - Database: Not specified, but using an in-memory list for data storage
 - REST API: Used for communication with the frontend
 
-**Data Flow:**
+## **Data Flow:**
 
 1. **Controller (TodoController):**
    - Handles incoming HTTP requests.
@@ -26,8 +26,8 @@
 4. **Database Design:**
    - The provided code does not specify a traditional database schema, as it uses an in-memory list (`ArrayList`) to store `Todo` objects. Therefore, there is no explicit database design.
 
-**Data Structure Used:**
+## **Data Structure Used:**
 - The primary data structure used in the project is a Java `ArrayList`. This `ArrayList` holds instances of the `Todo` class, representing the todos in memory. The `Todo` class itself is a custom data structure with fields for `todoId`, `todoName`, and `todoStatus`.
 
-**Project Summary:**
+## **Project Summary:**
 This project is a simple Java-based todo list application built using the Spring Boot framework. It provides a set of RESTful API endpoints for managing todos, including adding, retrieving, updating, and deleting tasks. Todos are stored in memory as a list of `Todo` objects. The project could benefit from adding service classes to handle business logic and separating concerns more effectively.
